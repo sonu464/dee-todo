@@ -88,8 +88,8 @@ body {
 #taskarea .btn:hover {
     transition: all 0.3s;
     cursor: pointer;
-    color: gold;
-    background-color: red;
+    color: black;
+    background-color: white;
 }
 
 ul {
@@ -154,7 +154,7 @@ ul li.checked::before {
 
 #taskarea span {
     position: relative;
-    color: red;
+    color: white;
     padding: 7px 0px;
 }
 
