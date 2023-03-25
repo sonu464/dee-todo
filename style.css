@@ -88,8 +88,7 @@ body {
 #taskarea .btn:hover {
     transition: all 0.3s;
     cursor: pointer;
-    color: black;
-    background-color: white;
+    color: gold;
 }
 
 ul {
