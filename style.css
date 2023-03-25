@@ -57,14 +57,13 @@ body {
 
 
 #taskarea #Task {
-     width: 70%;
+    width: 70%;
     border-radius: 25px;
-    padding: 8px 20px;
+    padding: 12px 20px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     outline: none;
     border: none;
-    font-size: 20px;
 }
 
 /* for button in taskarea */
@@ -100,14 +99,26 @@ ul {
 
 /* Styling of list items */
 
-
 ul li {
     cursor: pointer;
     position: relative;
-    padding: 12px 8px 12px 40px;
+    padding: 20px 40px;
     background: #eeee;
-    font-size: 18px;
+    font-size: 20px;
     transition: 0.2s;
+}
+
+ul li span {
+    position: absolute;
+    right: 4%;
+    font-size: 30px;
+    top: 20%;
+}
+
+ul li span:hover {
+    transition: all .5s;
+    scale: 0.8;
+    color: red;
 }
 
 /* Set all odd list items to a different color (zebra-stripes) */
@@ -156,4 +167,3 @@ ul li.checked::before {
     padding-top: 10px;
 
 }
-
