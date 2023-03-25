@@ -57,13 +57,14 @@ body {
 
 
 #taskarea #Task {
-    width: 70%;
+     width: 70%;
     border-radius: 25px;
-    padding: 12px 10px;
+    padding: 8px 20px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     outline: none;
     border: none;
+    font-size: 20px;
 }
 
 /* for button in taskarea */
